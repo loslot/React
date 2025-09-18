@@ -10,15 +10,11 @@ export default function State() {
         </div>
 
         <div className="w-full  flex justify-between">
-          
         <button onClick={()=>setNumber(number-1)}  className="text-3xl bg-red-600 m-3  "disabled={ number<=0} >-1</button>
         <button onClick={()=>setNumber(number+1)}  className="text-3xl border-black bg-green-600 m-3 " disabled={ number>=20} >+1</button>
-  
         </div>
 
-        
       </div>
-     
     </div>
   )
 }
