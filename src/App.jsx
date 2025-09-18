@@ -1,9 +1,15 @@
-import Index from "./Index";
+// import Data from "./component/Data";
+// import Index from "./Index";
+
+import State from "./component/state";
 
 export default function App() {
   return (
     <div>
-      <Index/>
+      {/* <Index/> */}
+      {/* <Data/> */}
+      <State/>
+
     </div>
   );
 }
